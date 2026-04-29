@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Ignore large data files, models if they get generated
+data/*.csv
+!data/BankAdditional.csv
+models/*.pkl
+models/*.joblib
+models/*.h5
